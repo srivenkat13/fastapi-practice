@@ -1,0 +1,25 @@
+[project]
+name = "fastapi-practice"
+version = "1.0.0"
+description = "Learn Python + FastAPI lesson by lesson, with graded exercises and interview prep."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi[standard]",
+  "sqlalchemy[asyncio]>=2.0",
+  "aiosqlite",
+  "alembic",
+  "pydantic-settings",
+  "email-validator",
+  "pyjwt",
+  "pwdlib[argon2]",
+  "httpx",
+  "flask",
+  "pytest",
+  "anyio",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["lessons", "drills", "capstone"]
+python_files = ["test_*.py"]
+addopts = "-q -p no:cacheprovider"
+filterwarnings = ["ignore::DeprecationWarning"]

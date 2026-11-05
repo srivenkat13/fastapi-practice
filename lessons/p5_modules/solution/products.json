@@ -1,0 +1,5 @@
+[
+  {"sku": "KB-1", "name": "Mechanical keyboard", "price_cents": 12900, "stock": 4},
+  {"sku": "MS-2", "name": "Wireless mouse", "price_cents": 4900, "stock": 0},
+  {"sku": "MN-3", "name": "4K monitor", "price_cents": 39900, "stock": 2}
+]

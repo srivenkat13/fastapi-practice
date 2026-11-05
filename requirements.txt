@@ -1,0 +1,12 @@
+fastapi[standard]>=0.115
+sqlalchemy[asyncio]>=2.0
+aiosqlite
+alembic
+pydantic-settings
+email-validator
+pyjwt
+pwdlib[argon2]
+httpx
+flask
+pytest
+anyio
